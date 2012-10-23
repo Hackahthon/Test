@@ -1,0 +1,51 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h3>Console</h3>
+<div id="log"></div>
+<input type="text" id="text" disabled="disabled" value="Loading..." />
+
+@section scripts {
+    <script src="@Url.Content("~/Scripts/jquery.signalR-0.5.3.min.js")"></script>
+    <script src="/signalr/hubs" type="text/javascript"></script>
+    
+    <script>
+
+(function ($, undefined) {
+    "use strict";
+
+    var chat = $.connection.chatHub;
+    var log = $('#log');
+
+    chat.onJoined = function (name) {
+        log.append('<div> -- ' + name + ' has joined the conversation.</div>');
+        log.scrollTop(log[0].scrollHeight);
+    };
+
+    chat.onMessage = function (name, text) {
+        log.append('<div>' + name + '&gt; ' + text + '</div>');
+        log.scrollTop(log[0].scrollHeight);
+    };
+
+    $('#text').on('keypress', function (evt) {
+        var enterEventKey = 13;
+        if (evt.which == enterEventKey) {
+            var input = $(this);
+            var text = input.val();
+
+            chat.message(text);
+            input.val('');
+        }
+    });
+
+    $.connection.hub.start().done(function () {
+        $('#text').val('');
+        $('#text').removeAttr('disabled');
+        chat.join();
+    });
+})(jQuery);
+
+
+    </script>
+}

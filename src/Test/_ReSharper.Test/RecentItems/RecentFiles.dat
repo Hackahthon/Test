@@ -1,0 +1,34 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/f:Global.asax.cs" caret="176" fromTop="7" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:App_Start/f:WebApiConfig.cs" caret="51" fromTop="3" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:App_Start/f:FilterConfig.cs" caret="60" fromTop="3" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:App_Start/f:Bootstrapper.cs" caret="0" fromTop="0" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:Filters/f:InitializeSimpleMembershipAttribute.cs" caret="0" fromTop="0" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/f:Web.config" caret="0" fromTop="0" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:Controllers/f:AccountController.cs" caret="678" fromTop="26" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:Views/d:Shared/f:_Layout.cshtml" caret="658" fromTop="20" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:App_Start/f:BundleConfig.cs" caret="392" fromTop="10" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:App_Start/f:RouteConfig.cs" caret="0" fromTop="0" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:Content/f:Site.css" caret="0" fromTop="0" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:Views/d:Home/f:Index.cshtml" caret="1272" fromTop="51" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:App_Start/f:AuthConfig.cs" caret="830" fromTop="23" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:SignalR/f:ChatHub.cs" caret="288" fromTop="12" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:App_Start/f:Bootstrapper.cs" caret="121" fromTop="5" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/f:Global.asax.cs" caret="176" fromTop="7" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:App_Start/f:FilterConfig.cs" caret="60" fromTop="3" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:App_Start/f:RouteConfig.cs" caret="0" fromTop="0" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:App_Start/f:WebApiConfig.cs" caret="51" fromTop="3" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:Controllers/f:AccountController.cs" caret="343" fromTop="12" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:Controllers/f:HomeController.cs" caret="294" fromTop="10" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:Views/d:Home/f:Index.cshtml" caret="1272" fromTop="15" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:App_Start/f:BundleConfig.cs" caret="392" fromTop="10" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:Content/f:Site.css" caret="22876" fromTop="43" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:Views/d:Shared/f:_Layout.cshtml" caret="658" fromTop="20" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:App_Start/f:AuthConfig.cs" caret="854" fromTop="23" />
+    <File id="FE3AABB8-0A06-4EFD-A819-8F87E58C0C27/d:SignalR/f:ChatHub.cs" caret="582" fromTop="24" />
+  </RecentEdits>
+</RecentFiles>
