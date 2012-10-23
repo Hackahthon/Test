@@ -1,5 +1,4 @@
 ﻿using System.Web;
-using Microsoft.Web.WebPages.OAuth;
 using SignalR.Hubs;
 
 namespace Test.Web.SignalR
@@ -19,10 +18,8 @@ namespace Test.Web.SignalR
             Clients.onMessage(user, message);
         }
 
-        private string GetUsername()
+        private static string GetUsername()
         {
-            if(OAuthWebSecurity.IsAuthenticatedWithOAuth)
-                
             return HttpContext.Current.User.Identity.Name;
         }
     }
